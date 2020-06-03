@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 form {
   border: 1px solid whitesmoke;
   border-radius: 5px;
@@ -11,9 +12,11 @@ form {
   margin: 8% auto;
   background-color: white;
 }
+
 fieldset {
   border: 0;
 }
+
 fieldset label {
   display: block;
   text-align: left;
@@ -21,6 +24,7 @@ fieldset label {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
 fieldset input {
   margin: 2% 0%;
   display: block;
@@ -29,19 +33,23 @@ fieldset input {
   border: 0.5px solid black;
   border-radius: 3px;
 }
+
 fieldset input:hover {
   border: 2px solid #0077c5;
 }
+
 footer {
   background-color: lightgray;
   margin: 0;
 }
+
 footer p {
   margin: 0;
   padding: 4%;
   text-align: center;
   font-size: 0.8em;
 }
+
 fieldset button {
   width: 100%;
   padding: 15px 20px;
@@ -53,6 +61,7 @@ fieldset button {
   border: none;
   border-radius: 5px;
 }
+
 fieldset button i {
   margin: 0 10px;
 }
