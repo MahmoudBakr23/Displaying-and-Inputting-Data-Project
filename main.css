@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 form {
   border: 1px solid whitesmoke;
   border-radius: 5px;
@@ -11,9 +12,11 @@ form {
   margin: 8% auto;
   background-color: white;
 }
+
 fieldset {
   border: 0;
 }
+
 fieldset label {
   display: block;
   text-align: left;
@@ -21,6 +24,7 @@ fieldset label {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
 fieldset input {
   margin: 2% 0%;
   display: block;
@@ -29,19 +33,23 @@ fieldset input {
   border: 0.5px solid black;
   border-radius: 3px;
 }
+
 fieldset input:hover {
   border: 2px solid #0077c5;
 }
+
 footer {
   background-color: lightgray;
   margin: 0;
 }
+
 footer p {
   margin: 0;
   padding: 4%;
   text-align: center;
   font-size: 0.8em;
 }
+
 fieldset button {
   width: 100%;
   padding: 15px 20px;
@@ -53,6 +61,84 @@ fieldset button {
   border: none;
   border-radius: 5px;
 }
+
 fieldset button i {
   margin: 0 10px;
+}
+
+.sign-in-btn{
+  text-align: right;
+  margin: 2% 2%;
+  padding: 0;
+}
+
+.sign-in-btn button{
+  padding: 15px 15px;
+  background-color: #0077c5;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-in-btn button i{
+  color: black;
+  margin: 0 3px;
+}
+
+.sign-in-btn p{
+  margin: 0 8.5%;
+}
+
+.logos{
+  text-align: center;
+  margin: 0;
+}
+
+.logos img{
+  width: 118px;
+  height: 35px;
+}
+
+.logos-list{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-left: 38%;
+  padding: 0;
+  display: flex;
+}
+
+.logos-list img{
+  width: 23px;
+  height: 23px;
+}
+
+.logos-list p{
+  font-family: sans-serif;
+  color: gray;
+  margin: .1% .2%;
+  font-size: 1.3em;
+  padding: 0% .5%;
+}
+
+.footer{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .85em;
+  color: gray;
+  margin: -3% 0;
+}
+
+.footer ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-left: 40%;
+}
+
+.footer ul li{
+  margin: 0 1%;
 }
