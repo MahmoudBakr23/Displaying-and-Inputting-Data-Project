@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Displaying-and-Inputting-Data-Project</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <form action="#">
-        <h1>Create an Intuit account</h1>
-        <p>One account for everything Intuit, including Mint.</p>
-        <a href="#">Learn More</a>
+      <h1>Create an Intuit account</h1>
+      <p>One account for everything Intuit, including Mint.</p>
+      <a href="#">Learn More</a>
 
-        <fieldset>
-            <label>
-                Email Address
-                <input type="email" name="email" required>
-            </label>
+      <fieldset>
+        <label>
+          Email Address
+          <input type="email" name="email" required />
+        </label>
 
-            <label>
-                Phone (Recommended)
-                <input type="tel" name="telephone" required>
-            </label>
+        <label>
+          Phone (Recommended)
+          <input type="tel" name="telephone" required />
+        </label>
 
-            <label>
-                Password
-                <input type="password" name="password" required>
-            </label>
+        <label>
+          Password
+          <input type="password" name="password" required />
+        </label>
 
-            <label>
-                Confirm password
-                <input type="password" name="password" required>
-            </label>
+        <label>
+          Confirm password
+          <input type="password" name="password" required />
+        </label>
+        <button class="btn btn-default" type="submit" name="submit">
+          <i class="fas fa-lock"></i>create account
+        </button>
+      </fieldset>
 
-            <button class="btn btn-default" type="submit" name="submit">Create Account</button>
-        </fieldset>
+      <p>
+        By clicking Create account, you agree to our <a href="#">Terms</a> and
+        have read and acknowledge our <a href="#">Privacy Statement</a>.
+      </p>
 
-        <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
-        
-        <footer>
-            <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
-        </footer>
+      <footer>
+        <p>
+          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+          <a href="#">Terms of Use</a>.
+        </p>
+      </footer>
     </form>
-</body>
+  </body>
 </html>
