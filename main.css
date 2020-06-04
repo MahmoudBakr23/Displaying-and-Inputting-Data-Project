@@ -117,10 +117,10 @@ fieldset button i {
   height: 23px;
 }
 
-.logos-list p {
+.logos-list li {
   font-family: sans-serif;
   color: gray;
-  margin: 0.1% 0.2%;
+  margin: 0% 0.2%;
   font-size: 1.3em;
   padding: 0% 0.5%;
 }
